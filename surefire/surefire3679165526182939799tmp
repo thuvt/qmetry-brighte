@@ -1,0 +1,13 @@
+#surefire
+#Fri Oct 16 16:39:11 AEDT 2020
+log4j.configuration=file\:///D\:\\Workspace\\AusPost2/resources/log4j.properties
+json.report.root.dir=test-results
+org.uncommons.reportng.xml-dialect=testng
+org.uncommons.reportng.escape-output=false
+json.report.dir=test-results/json
+localRepository=C\:\\Users\\thuvu\\.m2\\repository
+selenium.screenshots.relative.path=img
+outputDir=test-results
+user.dir=D\:\\Workspace\\AusPost2
+basedir=D\:\\Workspace\\AusPost2
+selenium.screenshots.dir=test-results/img

@@ -1,0 +1,9 @@
+
+SCENARIO: Screnario 1 - Australia Post Calculate Postage
+META-DATA: {"description":"Desc - Calculate Postage", "dataFile":"resources/testdata/data.xls", "sheetName":"DATA", "key":"data"}
+	Given Go to the page
+	When Add basic details and Continue to the next page '${args[0]}'
+	And Add more household details and Calculate Limit '${args[0]}'
+	Then Assert the amount user is eligible and maximum repayment amount '${args[0]}'
+	
+End 
