@@ -16,6 +16,7 @@ Maven directory structure:
 - The 'testdata' directory contains test data files, excel format.
 
 To change/modify dependencies, check pom.xml
+
 To run the project, from command prompt go to project home and run 'mvn clean test'. Then open test-results/emailable-report.html to view results.
 
 # Assumption
