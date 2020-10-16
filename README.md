@@ -14,6 +14,7 @@ Maven directory structure:
 - The 'test-results' directory contains result files.
 - The 'scenarios' directory is the default place holder for all the scenario files (bdd files).
 - The 'testdata' directory contains test data files, excel format.
+
 To change/modify dependencies, check pom.xml
 To run the project, from command prompt go to project home and run 'mvn clean test'. Then open test-results/emailable-report.html to view results.
 
