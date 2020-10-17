@@ -17,7 +17,7 @@ Maven directory structure:
 
 To change/modify dependencies, check pom.xml
 
-To run the project, from command prompt go to project home and run 'mvn clean test'. Then open test-results/emailable-report.html to view results.
+To run the project, from command prompt go to project home and run 'mvn clean test' or run it from Eclipse. Then open test-results/emailable-report.html to view results.
 
 # Assumption
 No formula to calculate the preapproval eligible amount and  maximum repayment amount. Assume that the expected amounts calculated from the excel file
